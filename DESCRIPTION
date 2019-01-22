@@ -1,0 +1,14 @@
+Package: PDSP
+Title: Phenotypic Drug Similarity Prediction
+Version: 0.0.0.9000
+Date: 2019-1-8
+Author: Elisa Micarelli
+Maintainer: Elisa Micarelli <elisa.micarelli@gmail.com>
+Description: This package infers a phentoypic drug similarity giving as input a set of chemical information provided by the user. In addition the user can visualize the already predicted drug-drug similarity.  
+Depends: R (>= 3.2.3)
+Imports: ChemmineOB (>= 1.20), ChemmineR (>= 3.34.1), caret (>= 6.0), stringr (>= 1.3.1), easyPubMed (>= 1.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.1.1
