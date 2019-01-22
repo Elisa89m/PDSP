@@ -81,7 +81,7 @@ To start the prediction at first you need to define the name of configuration fi
 
 ``` r
 filename_info = 'data_example.conf'
-OutputFolderName = 'Prova'
+OutputFolderName = 'Test'
 ```
 
 The `UploadAllData` function executes the reading of the configuration file and builds a R list object which will contain the new added drugs and the CMAP compound chemical information. The new added drug data are collected in "InfoNewDrug" item of the list and for each new drug there are the following fileds:
